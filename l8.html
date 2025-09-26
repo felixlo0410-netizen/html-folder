@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>l8</title>
+</head>
+
+
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+
+
+
+
+<!--lesson 8-->
+
+
+<body>
+    <div class="header">
+    This is the <strong>Header</strong> </div>
+
+
+
+    <p>Lesson 8 CSS</p>
+    <ol>
+        <li>section A
+        <li>section B      
+        <li>section B2
+        <li>section B3</li>
+       
+         <ol>
+            <li>section B1a</li>
+            <li>section B1b</li>
+            <li>section B1c</li>
+        
+            <ol>
+                <li>section B4</li>
+    
+                <ol>
+                    <li>section B4 4.3.1.1</li>
+                </ol>
+    
+        <li>
+        <li>section C</li>
+        <li>section D</li>
+    <ol>
+</body>
+
+<footer> i am footer </footer>
+    
+<style>
+    ol{
+        counter-reset: section;
+        list-style: none;
+    }
+
+    li:before {
+    counter-increment: section;
+    content: counters(section,".") " ";
+    }
+    .header{
+        background-color: aqua;
+        padding: 20px;
+        text-align: center;
+    }
+    .footer{
+        width: 100%;
+        background-color: blueviolet;
+        position: fixed;
+        bottom: 0px;
+        margin: 0px;
+        padding: 20px;
+        text-align: center;
+}
+</style>
+
+</html>    

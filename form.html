@@ -1,0 +1,151 @@
+<form>
+    <fieldset>
+    <legend>Do you agree?</legend>
+        <input type="checkbox" id="chbx" name="agreed" value="Yes!" />
+            <label for="chbx">I do not agree.</label>
+    </fieldset>
+</form>
+<br>
+<p>Lesson 8 - SiteSearch Google</p>
+<form method="get" action="https://search.google.com/search" target="_blank">
+    <a href="https://search.google.com/" target="_blank">
+    <img src="image/googlelogo_color_272x92dp.png" width="40" alt="Google"> </a>
+    <input type="search" name="q" value="">
+    <input type="submit" name="submit-btn" value="search">    
+</form>
+<br>
+<label for="Phone No."> Phone No.</label>
+<input type="tel" id="phone" name="phone" maxlength="8" pattern="[0-9] {8}" required>
+<p> <strong>EX 8.4.5 </strong></p>
+<fieldset>
+<legend><strong>Credit Card</strong></legend>
+<form id="payment-formaction=">
+</form>
+<br>
+<label for="First Name">First Name</label>
+<input type="text" id="FName" minlength="2" maxlength="10">
+<label for="Last Name">Last Name</label>
+<input type="text" id="LName" minlength="2" maxlength="10">
+<br>
+<label for="Crdeit Card Number">Crdeit Card Number</label>
+<input type="text" id="ccard" maxlength="19">
+<br>
+<label for="Expiration date">Expiration date</label>
+<input type="date" id="Expiration date" maxlength="19">
+<br>
+<label for="Gender">Gender</label>
+<input type="radio" name="Gender" id="Famale" value="F" required>Famale
+<input type="radio" name="Gendar" id="Male" value="F" required>Male
+<br>
+<label for="email">Email</label>
+<input type="email" id="email" name="email">
+<br><label for="color">Color</label>
+<input type="color" id="color4ED070" name="color4ED070" value="#4ED070">
+<label for="color">Color</label>
+<input type="color" id="colorB8EFC3" name="colorB8EFC3" value="#B8EFC3">
+<br><br>
+<input type="submit" value="submit">
+</fieldset>
+<br>
+<!--CSS 2 tesing-->
+
+<p>For CSS2 testing use.</p>
+Hello World
+<br>
+
+
+<div class="container">
+    <div class="item">左側欄位內容hhkhhkhkhkjhsk
+        <img src="image/iceland-hourse.png" alt="iceland-hourse" width="100%">
+    </div>
+    <div class="item">
+      右側欄位內容 546456465464646546464646      
+    </div>
+    <div class="item">
+        <video width="320" height="240" controls>
+                <source src="vedio/video_preview_h264.mp4" type="video/mp4">
+        </video>
+    </div>
+ </div>
+
+<style>
+  .container {
+    display: flex;
+    padding: 20px;
+    background-position: 10%;
+  }
+  
+  .column-left {
+    flex: 100%; /* 或設定固定百分比，例如 flex: 70%; */
+    padding: 20px;
+    background-color:red
+  }
+  
+  .column-right {
+    flex: 70%; /* 或設定固定百分比，例如 flex: 30%; */
+    padding: 10px;
+    background-color: purple
+  }
+   .column-center {
+    flex: 60%; /* 或設定固定百分比，例如 flex: 30%; */
+    padding: 50px;
+    margin: 30px;
+    background-color: snow
+  }
+
+  .item {
+    flex: auto;
+  }
+  </style>
+
+<div class="container mt-3"></div>
+  <h2>Horizontal Direction</h2>
+  <p>Use .flex-row to make the flex items appear side by side (default):</p>
+  <div class="d-flex flex-row bg-secondary mb-3">
+    <div class="p-2 bg-info">Flex item 1</div>
+    <div class="p-2 bg-warning">Flex item 2</div>
+    <div class="p-2 bg-primary">Flex item 3</div>
+  </div>
+<!--bs link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <div class="d-flex justify-content-around bg-secondary mb-3"></div>
+    <div class="p-2 bg-info">Flex item 1</div>
+    <div class="p-2 bg-warning">Flex item 2</div>
+    <div class="p-2 bg-primary">Flex item 3</div>
+  </div>
+</div>
+<br>
+<div class="d-flex justify-content-center bg-secondary mb-3">
+  <div class="p-2 bg-info">Flex item 1</div>
+  <div class="p-2 bg-warning">Flex item 2</div>
+  <div class="p-2 bg-primary">Flex item 3</div>
+</div><br>
+<div class="d-flex justify-content-between bg-secondary mb-3">
+  <div class="p-2 bg-info">Flex item 1</div>
+  <div class="p-2 bg-warning">Flex item 2</div>
+  <div class="p-2 bg-primary">Flex item 3</div>
+</div>
+
+
+
+
+<div class="container mt-3">
+  <h2>Aligning images</h2>
+  <p>Use the float classes to float the image to the left or to the right:</p> 
+  <img src="image/ma p1.jpg" class="float-start" alt="Paris" width="304" height="236"> 
+  <img src="image/ma p2.png" class="float-end" alt="Paris" width="304" height="236"> 
+</div>
+
+<!--cooding ref-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<div class="container mt-3">
+  <h2>Aligning images</h2>
+  <p>Use the float classes to float the image to the left or to the right:</p> 
+  <img src="image/ma p1.jpg" class="float-start" alt="Paris" width="304" height="236"> 
+  <img src="image/ma p2.png" class="float-end" alt="Paris" width="304" height="236"> 
+</div>
